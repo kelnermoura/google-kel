@@ -1,41 +1,81 @@
-body{
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
+html {
+    padding: 0;
+    margin: 0;                          
+    font-family: 'arial'; 
+}
+body {
+    padding: 0; 
+    margin: 0;                    
 }
 
-.menu ul li{
-    
-    display: inline;
-    margin-left: 10px;
-    list-style: none;
-  
-    
-}
-.menu{
-    display: flex;
-  justify-content: right;
-  margin-right: 125px;
-  font-family: Arial, Helvetica, sans-serif;
+ul {
+    list-style: none;  
 }
 
-.logo{
-    list-style: none;
-    display: flex;
-    justify-content: center;
+a {
+    text-decoration: none; 
+    color: rgb(0, 0, 0);       /*define a cor do texto do gmail/ imagens e entrar */
 }
 
-.busca{
-    display: flex;
-    justify-content: center;
+a:hover {                         
+    text-decoration: underline;   
+}
+#principal_google {      
+    float: right;    
+}
+#principal_google li {  
+    margin: 10px;                
+    display: inline-block;        
+                    
 }
 
-.pesquisa{
-    margin-top: 25px;
-    display: flex;
-    justify-content: center;
-    list-style: none;
-    
-    
-
+#principal_google #entrar {    
+    border-radius: 2px;          
+    margin-right: 39px;            
+    padding: 9px 16px;                    
+    font-weight: bold;          /*altera a força da fonte */
 }
+
+#imagem_google img {                 
+    display: block;                 
+    margin-left: auto;            
+    margin-right: auto;           
+    clear: both;                 
+    padding-top: 92px;           
+    padding-bottom: 22px;      
+ }
+ #formulario_google {
+    text-align: center; /* centraliza o formulário */
+ }
+ #barra_de_pesquisagoogle {
+    width: 650px;           /* tamanho da barra de pesquisa do google*/
+    line-height: 33px;     /* altura da barra de pesquisa do google*/
+    border-radius: 14px;  /* Bordas da barra de pesquisa do google*/
+ }
+ #botoes_google {
+    text-align: center; /* para centralizar os botões */
+    padding-top: 30px; /* espacamento entre os botões */
+    font-size: larger; /*tamanho da fonte dos botões */
+    border-radius: 5px;
+ }
+ footer {
+    background-color: #ebe7e7;  /*altera a cor do background do footer*/        
+    border-top: solid 2px #e4e4e4;    
+    width: 100%; 
+    position: fixed;                    
+    bottom: 0;                         
+                       
+ }
+ footer ul li {
+    display: inline;              
+    color: #b44444;             
+    font-size: 15px;        /*altera o tamanho da fonte do footer*/    
+    padding: 12px;              
+ }
+ #footer_esquerdo {
+    float: left;              
+ } 
+ #footer_direito {
+    float: right;            
+ }
+

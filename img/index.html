@@ -1,51 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Arial"> 
+    <link rel="stylesheet" href="/css/main.css"> 
+    <title>Google-Kel</title>
 
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-
-    <title> Google </title>
 </head>
 
 <body>
-
     <header>
-        <main>
-            <div class="#">
-                <div class="menu">
-            <ul>
-                <li><a href="https://mail.google.com/mail/u/0/#inbox">Gmail</a></li>
-                <li><a href="">Imagens</a></li>
+     <nav id="principal_google"> 
+  <ul> 
+    <li><a href="#">Gmail</a></li> 
+    <li><a href="#">Imagens</a></li>
+    <li id="entrar"><a href="#">Entrar</a></li>
             </ul>
-                 </div>
-            </div>
-        </main>
+        </nav>
     </header>
 
+    <div id="imagem_google"> 
+   <img src="/img/LogoGoogle.png" alt=""> 
+    </div>
 
-    <header>
-        <main>
-            <div class="header-2">
+    <div id="formulario_google">
+        <form>
+      <input id="barra_de_pesquisagoogle" type="text"> 
+        </form>
+    </div>
 
-               <div class="logo">
-                <ul>
-                    <li><a href=""><img src="./img/LogoGoogle.png"/></a></li>
-                </ul>
-               </div>
+    <div id="botoes_google"> 
+        <form>
+          <input type="submit" value="Pesquisa Google">
+          <input type="submit" value="Estou com sorte">
+        </form>
+    </div>
 
-               <div class="busca">
-                  <input type="text">
-               </div>
-               
-               <div class="pesquisa">
-                <input type="button" value="Pesquisa Google">
-                <input type="button" value="Estou com Sorte">
-               </div>
-               
+    <footer>
+  <ul id="footer_esquerdo"> 
+     <li><a href="#">Sobre</a></li>
+     <li><a href="#">Publicidade</a></li>
+     <li><a href="#">Negócios</a></li>
+     <li><a href="#">Como funciona a Pesquisa</a></li>
+        </ul>
 
-             </div>
-        </main>
-    </header>
+ <ul id="footer_direito"> 
+     <li><a href="#">Privacidade</a></li> <!-- -->
+     <li><a href="#">Termos</a></li>
+     <li><a href="#">Configurações</a></li>
 
+           </ul>
+    </footer>
 </body>
-
 </html>
+
